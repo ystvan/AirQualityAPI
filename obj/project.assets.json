@@ -9596,6 +9596,9 @@
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
+      "files": {
+        "lib/netcoreapp1.1/AirQualityAPI.dll": "C:\\Users\\IstvanMarki\\Documents\\Visual Studio 2017\\Projects\\AirQualityAPI\\bin\\placeholder\\netcoreapp1.1\\AirQualityAPI.dll"
+      },
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {}
@@ -9605,22 +9608,21 @@
     "frameworks": {
       "netcoreapp1.1": {
         "dependencies": {
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "1.1.1"
+          },
           "Microsoft.AspNetCore": {
             "target": "Package",
             "version": "1.1.1"
           },
-          "Microsoft.Extensions.Logging.Debug": {
-            "target": "Package",
-            "version": "1.1.1"
-          },
-          "Microsoft.NETCore.App": {
-            "target": "Package",
-            "version": "1.1.1",
-            "autoReferenced": true
-          },
           "Microsoft.AspNetCore.Mvc": {
             "target": "Package",
             "version": "1.1.2"
+          },
+          "Microsoft.Extensions.Logging.Debug": {
+            "target": "Package",
+            "version": "1.1.1"
           }
         }
       }
