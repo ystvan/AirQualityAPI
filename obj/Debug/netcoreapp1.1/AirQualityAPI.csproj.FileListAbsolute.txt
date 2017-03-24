@@ -1,0 +1,9 @@
+C:\Users\IstvanMarki\Documents\Visual Studio 2017\Projects\AirQualityAPI\bin\Debug\netcoreapp1.1\AirQualityAPI.deps.json
+C:\Users\IstvanMarki\Documents\Visual Studio 2017\Projects\AirQualityAPI\bin\Debug\netcoreapp1.1\AirQualityAPI.runtimeconfig.json
+C:\Users\IstvanMarki\Documents\Visual Studio 2017\Projects\AirQualityAPI\bin\Debug\netcoreapp1.1\AirQualityAPI.runtimeconfig.dev.json
+C:\Users\IstvanMarki\Documents\Visual Studio 2017\Projects\AirQualityAPI\bin\Debug\netcoreapp1.1\AirQualityAPI.dll
+C:\Users\IstvanMarki\Documents\Visual Studio 2017\Projects\AirQualityAPI\bin\Debug\netcoreapp1.1\AirQualityAPI.pdb
+C:\Users\IstvanMarki\Documents\Visual Studio 2017\Projects\AirQualityAPI\obj\Debug\netcoreapp1.1\AirQualityAPI.csprojResolveAssemblyReference.cache
+C:\Users\IstvanMarki\Documents\Visual Studio 2017\Projects\AirQualityAPI\obj\Debug\netcoreapp1.1\AirQualityAPI.AssemblyInfo.cs
+C:\Users\IstvanMarki\Documents\Visual Studio 2017\Projects\AirQualityAPI\obj\Debug\netcoreapp1.1\AirQualityAPI.dll
+C:\Users\IstvanMarki\Documents\Visual Studio 2017\Projects\AirQualityAPI\obj\Debug\netcoreapp1.1\AirQualityAPI.pdb
