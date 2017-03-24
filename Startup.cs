@@ -8,6 +8,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json.Serialization;
+using AirQualityAPI.Contexts;
+using Microsoft.EntityFrameworkCore;
+using AirQualityAPI.Repository;
 
 namespace AirQualityAPI
 {
@@ -32,6 +35,17 @@ namespace AirQualityAPI
             // Add framework services.
             services.AddMvc()
                     .AddJsonOptions(a => a.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver());
+                    
+            
+            //Dependency Injection
+
+            services.AddDbContext<MercuriesContext>(options =>
+                        options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")))
+                    .AddDbContext<OzonesContext>(options =>
+                        options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddSingleton<IMercuriesRepository, MercuriesRepository>();
+            services.AddSingleton<IOzonesRepository, OzonesRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
